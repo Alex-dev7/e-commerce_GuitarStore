@@ -8,7 +8,10 @@ export default function MenuButton() {
     return (
         <>
             <button 
-                className="relative"
+                className="relative transition-all cursor-pointer"
+                aria-haspopup="true"
+                aria-expanded={menu}
+                aria-controls="menu-popup"
                 onClick={() => setMenu(true)}
             >
                 Menu
