@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShipTo from "./ui/country-options";
 
 
 export default function MenuWindow({onClose}) {
@@ -14,7 +15,7 @@ export default function MenuWindow({onClose}) {
 
         </div>
         
-        <div className="flex flex-col gap-4 text-4xl font-bold text-gray-100 group">
+        <div className="flex flex-col gap-4 text-4xl font-bold text-gray-100 ">
             <Link href="#" className=" hover:underline">All</Link>
             <Link href="#" className=" hover:underline">Electric Guitars</Link>
             <Link href="#" className=" hover:underline">Accoustic</Link>
@@ -22,9 +23,7 @@ export default function MenuWindow({onClose}) {
             <Link href="#" className=" hover:underline">Accessories</Link>
             <Link href="#" className=" hover:underline">FAQ</Link>
         </div>
-        <div className="text-[15px]">
-            Shipping to: {"USA"}
-        </div>
+        <ShipTo />
     </div>
   )
 }
