@@ -1,4 +1,4 @@
-import Categorie from "./components/categories";
+import Category from "./components/categories";
 import Header from "./components/header";
 
 
@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
 
       <main className="flex flex-col h-[100dvh] bg-[#F0F0F0]">
-        <Categorie />
+        <Category />
 
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
