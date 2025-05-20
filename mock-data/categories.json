@@ -1,0 +1,22 @@
+[
+    {
+        "categorie":"Electrics",
+        "image":"svg/electric.svg"
+    },
+    {
+        "categorie":"Acoustics",
+        "image":"svg/acoustic.svg"
+    },
+    {
+        "categorie":"Parts",
+        "image":"svg/parts.svg"
+    },
+    {
+        "categorie":"Pedals",
+        "image":"svg/pedal.svg"
+    },
+    {
+        "categorie":"Accessories",
+        "image":"svg/acc.svg"
+    }
+]
