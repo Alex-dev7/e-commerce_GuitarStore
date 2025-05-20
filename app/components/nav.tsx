@@ -1,6 +1,4 @@
 import Link from "next/link"
-import { Suspense } from "react"
-import CartButton from "./ui/cart-button"
 import MenuButton from "./ui/menu-button"
 
 
