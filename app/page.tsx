@@ -1,5 +1,6 @@
 import Category from "./components/categories";
 import Header from "./components/header";
+import MarqueeText from "./components/home/running-text";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 
       <main className="flex flex-col h-[100dvh] bg-[#F0F0F0]">
         <Category />
+        <MarqueeText text={"Mastery is a never-ending exploration"} />
 
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
