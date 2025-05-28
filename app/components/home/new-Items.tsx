@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image"
+
 import Link from "next/link"
 import dynamic from "next/dynamic"
 
@@ -7,7 +7,7 @@ const Scene = dynamic(() => import('./Scene'), {ssr: false})
 
 function NewInventory() {
   return (
-    <section className="w-full">
+    <section className="w-screen">
       <div className="max-w-[500px] flex flex-col place-items-center gap-6 mx-auto">
         <h3 className="text-5xl font-semibold tracking-wide">
           New Exclusives
@@ -19,7 +19,7 @@ function NewInventory() {
             Shop Now
         </Link>
       </div>
-      <div className="min-h-[100dvh]">
+      <div className="h-screen w-screen ">
         <Scene />
       </div>
     </section>
