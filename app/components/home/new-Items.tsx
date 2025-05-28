@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import dynamic from "next/dynamic"
+import DetailsButton from "../ui/details-button"
 
 const Scene = dynamic(() => import('./Scene'), {ssr: false})
 
@@ -19,7 +20,7 @@ function NewInventory() {
             Shop Now
         </Link>
       </div>
-      <div className="h-screen w-screen ">
+      <div className="h-screen w-screen relative ">
         <Scene />
       </div>
     </section>

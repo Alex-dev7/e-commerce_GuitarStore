@@ -1,5 +1,6 @@
 import Category from "./components/categories";
 import Header from "./components/header";
+import StatsSection from "./components/home/StatsSection";
 import NewInventory from "./components/home/new-Items";
 import MarqueeText from "./components/home/running-text";
 
@@ -14,7 +15,8 @@ export default function Home() {
         <Category />
         <MarqueeText text={"Mastery is a never-ending exploration"} />
         <NewInventory />
-
+        <StatsSection />
+       
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
       </footer>

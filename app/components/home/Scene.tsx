@@ -4,6 +4,7 @@ import { Canvas, useThree } from "@react-three/fiber"
 import Model from "./Model"
 import { Suspense } from "react"
 import { useProgress, Html, OrbitControls, ContactShadows, Environment, Bounds } from "@react-three/drei"
+import DetailsButton from "../ui/details-button"
 
 function Loader() {
   const {progress, active} = useProgress()
@@ -14,8 +15,8 @@ function Loader() {
 function Scene() {
   
   return (
-    <Canvas  camera={{ position: [-0.1, 0.1, 1.9] }} gl={{antialias: true}} className="h-[500px] max-h-[700px] w-full flex place-content-center mx-auto">
-        <ambientLight intensity={0.5} />
+    <Canvas  camera={{ position: [-0.1, 0.1, 1.9] }} gl={{antialias: true}} className="h-[500px] max-h-[700px] relative w-full flex place-content-center mx-auto">
+        {/* <ambientLight intensity={0.5} /> */}
         {/* <directionalLight position={[10, 6, 10]} intensity={2}/> */}
         {/* <directionalLight position={[30, 10, 10]} intensity={2}/> */}
         {/* <directionalLight position={[10, 10, 10]} intensity={2}/> */}
@@ -37,7 +38,7 @@ function Scene() {
         {/* <gridHelper /> */}
         <Suspense fallback={<Loader />}>
           {/* <OrbitControls /> */}
-            <Environment preset="apartment" />
+            <Environment preset="warehouse" />
             <Model />
         </Suspense>
     </Canvas>
