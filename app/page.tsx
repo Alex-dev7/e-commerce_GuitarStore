@@ -14,7 +14,7 @@ export default function Home() {
       <main className="flex flex-col  bg-[#F0F0F0]">
         <Category />
         <MarqueeText text={"Mastery is a never-ending exploration"} />
-        {/* <NewInventory /> */}
+        <NewInventory />
         <StatsSection />
        
       </main>

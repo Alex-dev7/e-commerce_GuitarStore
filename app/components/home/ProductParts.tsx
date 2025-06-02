@@ -18,18 +18,20 @@ function ProductParts() {
             />
 
             <div className="flex  absolute left-[2%] top-[15%] w-[300px] h-15  rounded-full group overflow-hidden   transition-all duration-300   ">
+                
                 <button
-                    className={`z-10 cursor-pointer min-w-15 h-15  rounded-full border border-white bg-white group-hover:border-black  `}
+                    className={`z-10 animate-pulse text-center font-medium text-2xl cursor-pointer min-w-15 h-15  rounded-full border border-white bg-white group-hover:border-black  `}
                 >
                     +
-                </button>
+                </button>                    
+  
                 <span className="flex place-items-center justify-end h-15 min-w-fit  z-5 opacity-0 -translate-x-[150%] duration-300 pl-20 pr-4 rounded-full transition-all  group-hover:-translate-x-15 group-hover:opacity-100 bg-white">
                     {ItemParts.firstPoint}
                 </span>
             </div>
             <div className="flex  absolute left-[50%] top-[38%] w-[300px] h-15  rounded-full group overflow-hidden   transition-all duration-300   ">
                 <button
-                    className={`z-10 cursor-pointer min-w-15 h-15  rounded-full border border-white bg-white group-hover:border-black  `}
+                    className={`z-10 animate-pulse text-center  font-medium text-2xl cursor-pointer min-w-15 h-15  rounded-full border border-white bg-white group-hover:border-black  `}
                 >
                     +
                 </button>
@@ -39,7 +41,7 @@ function ProductParts() {
             </div>
             <div className="flex absolute left-[8%] top-[75%] w-[300px] h-15 rounded-full group overflow-hidden   transition-all duration-300   ">
                 <button
-                    className={`z-10 cursor-pointer min-w-15 h-15  rounded-full border border-white bg-white group-hover:border-black  `}
+                    className={`z-10 animate-pulse text-center  font-medium text-2xl cursor-pointer min-w-15 h-15  rounded-full border border-white bg-white group-hover:border-black  `}
                 >
                     +
                 </button>

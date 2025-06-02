@@ -2,10 +2,10 @@ import Link from "next/link"
 import MenuButton from "./ui/menu-button"
 
 
-export default async function Nav() {
+export default function Nav() {
 
   return (
-    <div className=" top-0 inset-x-0 z-50 group">
+    <div className=" top-0 inset-x-0 z-50 ">
       <div className="relative h-24 mx-auto duration-200 bg-linear-to-r from-[#012020] to-[#076565] ">
         <nav className="flex items-center justify-between text-white tracking-wider w-full max-w-[1500px] h-full mx-auto p-2">
           <div className="flex-1 basis-0 h-full flex items-center transition-all">
@@ -43,7 +43,7 @@ export default async function Nav() {
                   className=" flex gap-2 items-center h-full"
                   href="/cart"
                 >
-                  Cart (0)
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> (0)
                 </Link>                
             </div>
           </div>

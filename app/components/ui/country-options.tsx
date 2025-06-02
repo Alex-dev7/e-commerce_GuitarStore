@@ -15,8 +15,8 @@ function ShipTo() {
     const [selectedCountry, setSelectedCountry] = useState(countries[0])
 
     return (
-        <div className="relative text-[15px] group cursor-pointer">
-          <div className="px-3 py-1">
+        <div className="relative h-fit text-[15px] z-10 group  cursor-pointer ">
+          <div className="px-3 py-1  ">
             Shipping to: {selectedCountry.emoji} {selectedCountry.name}
           </div>
     
