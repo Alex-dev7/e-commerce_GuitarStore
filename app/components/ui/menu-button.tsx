@@ -8,7 +8,7 @@ export default function MenuButton() {
     return (
         <>
             <button 
-                className="relative transition-all cursor-pointer"
+                className="relative transition-all cursor-pointer text-lg px-2 hover:border-[0.5px] rounded-md "
                 aria-haspopup="true"
                 aria-expanded={menu}
                 aria-controls="menu-popup"

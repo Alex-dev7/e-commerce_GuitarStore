@@ -8,7 +8,7 @@ const Scene = dynamic(() => import('./Scene'), {ssr: false})
 
 function NewInventory() {
   return (
-    <section className="w-screen">
+    <section className="w-screen min-h-screen">
       <div className="max-w-[500px] flex flex-col place-items-center gap-6 mx-auto">
         <h3 className="text-5xl font-semibold tracking-wide">
           New Exclusives
@@ -20,7 +20,7 @@ function NewInventory() {
             Shop Now
         </Link>
       </div>
-      <div className="h-screen w-screen relative ">
+      <div className="h-[700px] w-screen relative ">
         <Scene />
       </div>
     </section>

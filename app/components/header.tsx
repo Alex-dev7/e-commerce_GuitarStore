@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function Header() {
   return (
-    <div className="w-full h-[95dvh] flex bg-linear-to-r from-[#294347] to-[#396f79]" >
+    <div className="w-full h-[95dvh] flex bg-linear-to-r from-[#012020] to-[#076565]" >
         <header className="w-[90dvw] h-[78dvh] rounded-2xl overflow-hidden mx-auto">
             <Image priority={true} src={'/images/headerImg.jpg'} width={1800} height={800} alt="" className="object-cover h-full w-full"/>
             <div className="absolute flex flex-col gap-5 top-[41%] left-40">
