@@ -1,0 +1,38 @@
+[
+    {
+      "stars": 5,
+      "text": "Absolutely incredible service. Went above and beyond to meet our needs!",
+      "name": "Sam Lee",
+      "job": "Marketing Director, Acme Corp",
+      "avatar": "/svg/avatar-1.png"
+    },
+    {
+      "stars": 4,
+      "text": "Great experience overall. A few small hiccups but nothing major.",
+      "name": "Jordan Smith",
+      "job": "Freelance Designer",
+      "avatar": "/svg/avatar-2.png"
+    },
+    {
+      "stars": 5,
+      "text": "Highly professional and delivered on time. Would definitely recommend.",
+      "name": "Emily Chen",
+      "job": "CTO, TechNova",
+      "avatar": "/svg/avatar-3.png"
+    },
+    {
+      "stars": 3,
+      "text": "The service was decent, but communication could have been better.",
+      "name": "Michael O'Neill",
+      "job": "Project Manager, BuildIt Ltd.",
+      "avatar": "/svg/avatar-4.png"
+    },
+    {
+      "stars": 4,
+      "text": "Solid results and very responsive team. I'd work with them again.",
+      "name": "Ravi Patel",
+      "job": "Founder, GreenLoop",
+      "avatar": "/svg/avatar-5.png"
+    }
+  ]
+  

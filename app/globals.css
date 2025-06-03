@@ -49,3 +49,18 @@
   }
 }
 
+
+/* WebKit browsers (Chrome, Safari, Opera) */
+.reviewsElement::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.reviewsElement {
+  scrollbar-width: none;
+}
+
+/* IE and Edge (older versions) */
+.reviewsElement {
+  -ms-overflow-style: none;
+}
