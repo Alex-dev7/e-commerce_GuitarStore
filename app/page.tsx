@@ -1,5 +1,6 @@
 import Category from "./components/categories";
 import Header from "./components/header";
+import FAQ from "./components/home/FAQ/FAQ";
 import ReviewsSection from "./components/home/ReviewsSection/ReviewsSection";
 import StatsSection from "./components/home/StatsSection";
 import NewInventory from "./components/home/new-Items";
@@ -18,6 +19,7 @@ export default function Home() {
         {/* <NewInventory /> */}
         <StatsSection />
         <ReviewsSection />
+        <FAQ />
        
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
