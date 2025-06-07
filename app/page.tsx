@@ -4,6 +4,7 @@ import Header from "./components/header";
 import FAQ from "./components/home/FAQ/FAQ";
 import ReviewsSection from "./components/home/ReviewsSection/ReviewsSection";
 import StatsSection from "./components/home/StatsSection";
+import Test from "./components/home/Test";
 import NewInventory from "./components/home/new-Items";
 import MarqueeText from "./components/home/running-text";
 
@@ -20,6 +21,7 @@ export default function Home() {
                 <StatsSection />
                 <ReviewsSection />
                 <FAQ />
+                <Test />
             </main>
             <Footer />
         </div>
