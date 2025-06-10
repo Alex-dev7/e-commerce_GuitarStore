@@ -16,11 +16,9 @@ export default function MenuWindow({onClose}) {
         </div>
         
         <div className="flex flex-col gap-4 text-4xl font-bold text-gray-100 ">
-            <Link href="#" className=" hover:underline">All</Link>
-            <Link href="#" className=" hover:underline">Electric Guitars</Link>
-            <Link href="#" className=" hover:underline">Accoustic</Link>
-            <Link href="#" className=" hover:underline">Parts</Link>
-            <Link href="#" className=" hover:underline">Accessories</Link>
+            <Link href="/shop" className=" hover:underline">Shop</Link>
+            <Link href="#" className=" hover:underline">About</Link>
+            <Link href="#" className=" hover:underline">Contact</Link>
             <Link href="#" className=" hover:underline">FAQ</Link>
         </div>
         <ShipTo />
