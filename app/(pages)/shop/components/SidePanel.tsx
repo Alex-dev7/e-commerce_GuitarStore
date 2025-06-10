@@ -5,10 +5,10 @@ import ColorOptions from "./ColorOptions";
 import PriceRange from "./PriceRange";
 
 function SidePanel() {
-    const [selectedFilter, setSelectedFilter] = useState("latest");
+    const [selectedFilter, setSelectedFilter] = useState<String>("latest");
 
     return (
-        <section className="w-[350px] h-screen bg-white flex flex-col space-y-15 p-4">
+        <section className="w-[350px] min-h-screen bg-white pt-14 flex flex-col space-y-15 p-4">
             <Categories />
             <fieldset className="tracking-wider space-y-8">
                 <h4 className="bg-[#f0f0f099] py-2 px-1 font-semibold text-gray-500  mb-3">Sort by</h4>

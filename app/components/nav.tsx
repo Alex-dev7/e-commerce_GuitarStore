@@ -6,7 +6,7 @@ export default function Nav() {
 
   return (
     <div className=" top-0 inset-x-0 z-50 ">
-      <div className="relative h-24 mx-auto duration-200 bg-linear-to-r from-[#012020] to-[#076565] ">
+      <div className="relative h-20 mx-auto duration-200 bg-linear-to-r from-[#012020] to-[#076565] ">
         <nav className="flex items-center justify-between text-white tracking-wider w-full max-w-[1500px] h-full mx-auto p-2">
           <div className="flex-1 basis-0 h-full flex items-center transition-all">
             <MenuButton />

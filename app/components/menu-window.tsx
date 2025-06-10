@@ -1,8 +1,11 @@
 import Link from "next/link";
 import ShipTo from "./ui/country-options";
 
+type MenuWindowProps = {
+  onClose: () => void;
+};
 
-export default function MenuWindow({onClose}) {
+export default function MenuWindow({onClose}: MenuWindowProps) {
   return (
     <div
         role="dialog"
@@ -16,10 +19,10 @@ export default function MenuWindow({onClose}) {
         </div>
         
         <div className="flex flex-col gap-4 text-4xl font-bold text-gray-100 ">
-            <Link href="/shop" className=" hover:underline">Shop</Link>
-            <Link href="#" className=" hover:underline">About</Link>
-            <Link href="#" className=" hover:underline">Contact</Link>
-            <Link href="#" className=" hover:underline">FAQ</Link>
+            <Link href="/shop" onClick={onClose} className=" hover:underline">Shop</Link>
+            <Link href="#" onClick={onClose} className=" hover:underline">About</Link>
+            <Link href="#" onClick={onClose} className=" hover:underline">Contact</Link>
+            <Link href="#" onClick={onClose} className=" hover:underline">FAQ</Link>
         </div>
         <ShipTo />
     </div>
