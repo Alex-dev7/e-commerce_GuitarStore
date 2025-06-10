@@ -1,13 +1,19 @@
+'use client'
+ 
+import { usePathname } from 'next/navigation'
 import Link from "next/link"
 import MenuButton from "./ui/menu-button"
 
 
-export default function Nav() {
+
+export default  function Nav() {
+  const pathname = usePathname()
+  console.log(pathname)
 
   return (
     <div className=" top-0 inset-x-0 z-50 ">
-      <div className="relative h-20 mx-auto duration-200 bg-linear-to-r from-[#012020] to-[#076565] ">
-        <nav className="flex items-center justify-between text-white tracking-wider w-full max-w-[1500px] h-full mx-auto p-2">
+      <div className={` h-20 mx-auto duration-200 bg-linear-to-r ${pathname !== '/' ? ' bg-[#ddddddb0] backdrop-blur-sm fixed left-0 top-0 w-full' : 'from-[#012020] to-[#076565] relative'} `}>
+        <nav className={`flex items-center justify-between ${pathname !== '/' ? 'text-black' : 'text-white'} tracking-wider w-full max-w-[1500px] h-full mx-auto p-2`}>
           <div className="flex-1 basis-0 h-full flex items-center transition-all">
             <MenuButton />
           </div>
